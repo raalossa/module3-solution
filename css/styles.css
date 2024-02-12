@@ -1,0 +1,112 @@
+* { box-sizing:border-box;
+}
+
+body{
+background-color: rgb(255, 255, 255);
+
+}
+#title1 {
+    size: 30px;
+}
+
+.title2 {
+    size: 30px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+
+}
+
+#header-nav {
+
+    background-color: #f6b319;
+    border-radius:0;
+    border: 0;
+
+}
+
+.navbar{
+
+    background-color: #f6b319;
+
+
+}
+
+.navbar-brand {
+
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    color: rgb(126, 51, 51);
+    font-family:  "Protest Strike", sans-serif;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #adadad;
+    line-height: .75;
+    font-style: normal;
+    margin-left: 10%;
+}
+
+.protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.parrafo {
+
+   
+    position: relative;
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: grey;
+    float: left;
+    text-align: center;
+}
+
+.box {
+
+    width: 100%;
+    height: 500px;
+    background-color: white;
+
+
+}
+
+#h2 {
+
+    align-items: center;
+}
+
+
+.col-lg-4{
+
+    float: left;
+    
+}
+
+.col-md-6{
+
+    float: left;
+}
+
+.col-lg-12{
+
+    float: left;
+}
+
+h4{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    float: left;
+
+    }
+
+@media (max-width:575px){
+h4{
+font-size: 15px;
+color: rgb(58, 58, 58);
+}
+  
+}
