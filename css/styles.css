@@ -100,13 +100,22 @@ h4{
     font-size: 15px;
     color: rgb(255, 255, 255);
     float: left;
+    position: absolute;
+    margin-left: 2000px;
+
 
     }
 
 @media (max-width:575px){
 h4{
+    width: 100%;
 font-size: 15px;
 color: rgb(58, 58, 58);
+text-align: center;
+position: relative;
+margin-left: 10px;
 }
   
 }
+
+
